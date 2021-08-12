@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Intranet</title>
+		<meta charset="UTF-8"/>
+		<meta property="og:title" content="Intranet"/>
+		<meta property="og:url" content="https://intranet.lrusso.com/"/>
+		<meta property="og:description" content="IT Solutions"/>
+		<meta property="og:image" content="https://intranet.lrusso.com/intranetShare.png"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:site_name" content="Intranet"/>
+		<meta name="theme-color" content="#000000"/>
+		<meta name="mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<link rel="manifest" href="intranet.json"/>
+		<link rel="icon" sizes="16x16" type="image/png" href="intranet_16x16.png"/>
+		<link rel="icon" sizes="192x192" type="image/png" href="intranet_192x192.png"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="intranet.css" type="text/css">
+	</head>
+	<body>
+		<div class="pleasewait"><div class="pleasewait_icon"><div class="pleasewait-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
+
+		<div class="system_background"></div>
+
+		<div class="login_container">
+			<div class="login_message"></div>
+			<div class="login_form">
+				<div class="login_logo"></div>
+				<p class="login_field"><input type="text" maxlength="255" class="login_textbox"></p>
+				<p class="login_field"><input type="password" maxlength="255" class="login_textbox"></p>
+				<p class="login_field"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5QgIBRYuuRw5TAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC" class="login_textbox" alt="captcha" id="captcha"/></p>
+				<p class="login_field"><input type="text" maxlength="6" class="login_textbox"></p>
+				<input type="submit" class="login_submit" value="">
+			</div>
+		</div>
+
+		<div class="desktop_container">
+			<div class="desktop_status"><div class="desktop_status_username"></div><div class="desktop_status_usertype"></div><div class="desktop_status_system_name"></div></div>
+			<div class="desktop_table">
+				<div class="desktop_bar">
+					<div class="desktop_logo"></div><span class="destkop_barspace_initial"></span><span class="desktop_barlink"></span><span class="destkop_barspace"></span><span class="desktop_barlink"></span><span class="destkop_barspace"></span><span class="desktop_barlink"></span>
+					<div class="desktop_bartime"></div>
+				</div>
+				<div class="desktop_background">
+					<div class="desktop_calendar_fix"><div class="desktop_calendar"></div></div>
+					<div class="desktop_content"></div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-database.js"></script>
+		<script src="intranet.js"></script>
+	</body>
+</html>
