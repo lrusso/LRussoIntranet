@@ -81,6 +81,23 @@ html,body{padding:0;margin:0;-webkit-tap-highlight-color:transparent}
 .window_body{padding-left:4px;padding-right:4px;background-color:#F2F2F2}
 
 .profile_container{color:black;font-family:Arial;font-size:13px;border:0;padding:0;background-color:white;border-collapse:separate;border-spacing:0 0;margin-left:auto;margin-right:auto;width:350px;-webkit-box-shadow:0 2px 2px 1px rgba(0,0,0,0.4);-moz-box-shadow:0 2px 2px 1px rgba(0,0,0,0.4);-o-box-shadow:0 2px 2px 1px rgba(0,0,0,0.4);-ms-box-shadow:0 2px 2px 1px rgba(0,0,0,0.4);box-shadow:0 2px 2px 1px rgba(0,0,0,0.4);text-align:center;border-radius:5px;overflow:hidden;display:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}
+.profile_connecting{position:absolute;width:340px;height:380px;text-align:center;display:none}
+.profile_connecting_spinner{color:#3a76b1;display:inline-block;width:64px;height:64px;position:relative;top:50%;transform:translateY(-50%)}
+.profile_connecting_spinner div{transform-origin:32px 32px;animation:profile_connecting_spinner 1.2s linear infinite}
+.profile_connecting_spinner div:after{content:" ";display:block;position:absolute;top:3px;left:29px;width:5px;height:14px;border-radius:20%;background:#3a76b1}
+.profile_connecting_spinner div:nth-child(1){transform:rotate(0deg);animation-delay:-1.1s}
+.profile_connecting_spinner div:nth-child(2){transform:rotate(30deg);animation-delay:-1s}
+.profile_connecting_spinner div:nth-child(3){transform:rotate(60deg);animation-delay:-0.9s}
+.profile_connecting_spinner div:nth-child(4){transform:rotate(90deg);animation-delay:-0.8s}
+.profile_connecting_spinner div:nth-child(5){transform:rotate(120deg);animation-delay:-0.7s}
+.profile_connecting_spinner div:nth-child(6){transform:rotate(150deg);animation-delay:-0.6s}
+.profile_connecting_spinner div:nth-child(7){transform:rotate(180deg);animation-delay:-0.5s}
+.profile_connecting_spinner div:nth-child(8){transform:rotate(210deg);animation-delay:-0.4s}
+.profile_connecting_spinner div:nth-child(9){transform:rotate(240deg);animation-delay:-0.3s}
+.profile_connecting_spinner div:nth-child(10){transform:rotate(270deg);animation-delay:-0.2s}
+.profile_connecting_spinner div:nth-child(11){transform:rotate(300deg);animation-delay:-0.1s}
+.profile_connecting_spinner div:nth-child(12){transform:rotate(330deg);animation-delay:0s}
+@keyframes profile_connecting_spinner{0%{opacity:1}100%{opacity:0}}
 .profile_textbox{width:335px;line-height:13px;height:30px;color:black;font-family:Arial;font-size:13px;text-align:left;border:1px silver solid;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding-left:4px;padding-right:4px;margin-top:10px;border-radius:5px;outline:none}
 .profile_textbox:disabled{background:#C8C8C8;color:gray}
 .profile_password_rules_title{float:left;width:100%;margin-top:15px;padding-left:10px;text-align:left;font-weight:bold}
