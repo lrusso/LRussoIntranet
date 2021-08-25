@@ -60,8 +60,8 @@ html,body{padding:0;margin:0;-webkit-tap-highlight-color:transparent}
 .desktop_bar{height:42px !important;border-collapse:collapse;border-spacing:0 0;vertical-align:baseline;margin:0;padding:0;font-family:Arial;font-size:14px;line-height:3;font-weight:normal;background-color:#F2F2F2;border-bottom:1px solid #989898}
 .desktop_bartime{float:right;font-family:Arial;font-size:14px;line-height:3;font-weight:normal;text-align:right;padding-right:10px;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;user-select:none}
 .desktop_barlink{text-decoration:none;color:black;-webkit-user-select:none;-moz-user-select:none;user-select:none;cursor:pointer}
-.destkop_barspace_initial{padding-right:75px}
-.destkop_barspace{padding-right:30px}
+.destkop_barspace_initial{padding-right:75px;-webkit-user-select:none;-moz-user-select:none;user-select:none}
+.destkop_barspace{padding-right:30px;-webkit-user-select:none;-moz-user-select:none;user-select:none}
 .desktop_background{text-align:left;vertical-align:top;padding:10px}
 .desktop_status{position:absolute;left:33px;top:37px;background-color:white;color:#026390;padding-left:10px;padding-right:10px;padding-top:20px;padding-bottom:20px;width:200px;font-family:Arial;font-size:12px;text-align:center;-webkit-box-shadow:0 2px 2px 1px rgba(0,0,0,0.4);-moz-box-shadow:0 2px 2px 1px rgba(0,0,0,0.4);-o-box-shadow:0 2px 2px 1px rgba(0,0,0,0.4);-ms-box-shadow:0 2px 2px 1px rgba(0,0,0,0.4);box-shadow:0 2px 2px 1px rgba(0,0,0,0.4);-webkit-user-select:none;-moz-user-select:none;user-select:none;display:none;z-index:9998}
 .desktop_status_username{display:block;width:100%;margin-bottom:17px}
