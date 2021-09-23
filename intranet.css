@@ -137,7 +137,7 @@ input{-webkit-appearance:none}
 .messages_body{display:inline-block;padding-left:0px;padding-right:0px;width:100%}
 .messages_content{display:inline-block;background-color:white;width:98.5%;height:300px;overflow-y:scroll;font-size:14px;padding-left:8px;padding-right:8px;padding-top:4px;padding-bottom:4px;line-height:1.5;-webkit-text-size-adjust:none;-webkit-user-select:text;user-select:text}
 .messages_input_wrapper{display:inline-block;width:100%}
-.messages_input_text{border:none;padding-left:6px;padding-right:6px;padding-top:8px;padding-bottom:8px;width:100%;outline:1px solid silver}
+.messages_input_text{line-height:13px;height:30px;color:black;font-family:Arial;font-size:13px;text-align:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border:none;padding-left:6px;padding-right:6px;padding-top:8px;padding-bottom:8px;width:100%;outline:none;border-top:1px solid silver}
 
 .profile_container{color:black;font-family:Arial;font-size:13px;border:0;padding:0;background-color:white;border-collapse:separate;border-spacing:0 0;margin-left:auto;margin-right:auto;width:350px;-webkit-box-shadow:0 2px 2px 1px rgba(0,0,0,0.4);-moz-box-shadow:0 2px 2px 1px rgba(0,0,0,0.4);-o-box-shadow:0 2px 2px 1px rgba(0,0,0,0.4);-ms-box-shadow:0 2px 2px 1px rgba(0,0,0,0.4);box-shadow:0 2px 2px 1px rgba(0,0,0,0.4);text-align:center;border-radius:5px;overflow:hidden;display:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}
 .profile_title{display:inline-block}
