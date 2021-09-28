@@ -143,12 +143,12 @@ input{-webkit-appearance:none}
 .messages_toolbar_separator{float:left;width:1px;height:30px;border-right:1px solid silver;padding-left:15px;margin-right:15px;display:inline-block;vertical-align:middle}
 .messages_content{display:block;background-color:white;overflow-y:scroll;font-size:14px;padding-left:8px;padding-right:8px;padding-top:4px;padding-bottom:4px;line-height:1.5;-webkit-text-size-adjust:none;-webkit-user-select:text;user-select:text;word-break:break-word}
 .messages_content a{text-decoration:none;color:#3a76b1}
-.messages_content_bubble{display:block;width:100%;text-align:left}
-.messages_content_bubble_margin{padding-top:12px}
-.messages_content_bubble_wrapper{display:inline-block}
-.messages_content_bubble_text{display:inline-block;margin-left:25px}
-.messages_content_bubble_align{display:inline-block;text-align:left}
-.messages_content_bubble_timestamp{display:inline-block;margin-left:5px;font-size:12px;color:rgba(0,0,0,0.45)}
+.messages_content_wrapper{display:block;width:100%;text-align:left}
+.messages_content_wrapper_margin{padding-top:12px}
+.messages_content_wrapper_info{display:inline-block}
+.messages_content_wrapper_text{display:inline-block;margin-left:25px}
+.messages_content_wrapper_align{display:inline-block;text-align:left}
+.messages_content_wrapper_timestamp{display:inline-block;margin-left:5px;font-size:12px;color:rgba(0,0,0,0.45)}
 
 .messages_input_wrapper{display:inline-block;width:100%}
 .messages_input_text{line-height:13px;height:30px;color:black;font-family:Arial;font-size:13px;text-align:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border:none;padding-left:6px;padding-right:6px;padding-top:8px;padding-bottom:8px;width:100%;outline:none;border-top:1px solid silver}
