@@ -146,7 +146,7 @@ input{-webkit-appearance:none}
 .messages_input_wrapper{display:inline-block;width:100%}
 .messages_input_text{line-height:13px;height:30px;color:black;font-family:Arial;font-size:13px;text-align:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border:none;padding-left:6px;padding-right:6px;padding-top:8px;padding-bottom:8px;width:100%;outline:none;border-top:1px solid silver}
 .messages_nomessages{color:gray;font-style:italic}
-.messages_users_list{float:left;background-color:white;border-left:1px solid silver;overflow-y:scroll;font-family:Arial;font-size:14px;padding-left:8px;padding-top:4px;padding-bottom:4px;line-height:1.5;word-break:break-word}
+.messages_users_list{float:left;width:15%;background-color:white;border-left:1px solid silver;overflow-y:scroll;font-family:Arial;font-size:14px;padding-left:8px;padding-top:4px;padding-bottom:4px;line-height:1.5;word-break:break-word}
 .messages_users_list_online{color:green}
 .messages_users_list_offline{color:gray}
 
